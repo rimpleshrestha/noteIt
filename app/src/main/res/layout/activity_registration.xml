@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#FFECCF"
+    tools:context=".RegistrationActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="230dp"
+        app:srcCompat="@drawable/regimage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="95dp"
+        android:layout_marginBottom="30dp"
+        android:text="Welcome OnBoard!"
+        android:textColor="#593F3F"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+        <EditText
+        android:id="@+id/nameReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginVertical="15sp"
+        android:ems="10"
+        android:layout_marginHorizontal="30sp"
+        android:background="@drawable/rectanglecorner"
+        android:hint="Enter your full name"
+        android:textColorHint="@color/black"
+        android:inputType="text"/>
+
+        <EditText
+        android:id="@+id/emailReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_marginVertical="15sp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/rectanglecorner"
+        android:hint="Enter your email"
+        android:textColorHint="@color/black"
+         />
+
+        <EditText
+        android:id="@+id/passwordrReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_marginVertical="15sp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/rectanglecorner"
+        android:hint="Enter password "
+        android:textColorHint="@color/black"
+        android:inputType="textPassword" />
+
+        <EditText
+        android:id="@+id/confirmReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_marginVertical="15sp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/rectanglecorner"
+        android:inputType="textPassword"
+            android:textColorHint="@color/black"
+        android:hint="Confirm password" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15sp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:backgroundTint="#6F4E37"
+        android:text="Register" />
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/alreadyReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="25dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="34dp"
+            android:text="Already have an account?"
+            android:textColor="#785757"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/signReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="25dp"
+            android:layout_marginHorizontal="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text=" Sign in "
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</LinearLayout>
